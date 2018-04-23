@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title>Configuring dxDataGrid - Angular Approach</title>
+    <meta charset="utf-8" />
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/angular.min.js"></script>
+    <script type="text/javascript" src="js/angular-sanitize.js"></script>
+    <script type="text/javascript" src="js/globalize.min.js"></script>
+    <script type="text/javascript" src="js/dx.all.js"></script>
+
+    <script type="text/javascript" src="data.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/dx.common.css" />
+    <link rel="stylesheet" type="text/css" href="css/dx.light.css" />
+
+    <script type="text/javascript">
+        var myApp = angular.module('myApp', ['dx']);
+        myApp.controller("defaultCtrl", function ($scope) {
+
+            $scope.gridSettings = {
+                dataSource: employees,
+                paging: {
+                    pageSize: 6
+                },
+                filterRow: {
+                    visible: true
+                },
+                groupPanel: {
+                    visible: true,
+                },
+                editing: {
+                    editMode: 'row',
+                    editEnabled: true,
+                    removeEnabled: true,
+                    insertEnabled: true
+
+                }
+            }
+        });
+
+    </script>
+</head>
+<body ng-controller="defaultCtrl">
+    <div dx-data-grid="gridSettings"></div>
+</body>
+</html>
