@@ -3,6 +3,9 @@
 
 <!-- default file list end -->
 # How to configure DataGrid with AngularJS Approach
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/t116564)**
+<!-- run online end -->
 
 
 <p>This example demonstrates how to display data from a data source in dxDataGrid created using the AngularJS approach.<br /><br /></p>
