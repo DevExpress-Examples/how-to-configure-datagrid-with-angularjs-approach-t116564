@@ -4,7 +4,7 @@
 <!-- default file list end -->
 # How to configure DataGrid with AngularJS Approach
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/t116564)**
+**[[Run Online]](https://codecentral.devexpress.com/t116564/)**
 <!-- run online end -->
 
 
