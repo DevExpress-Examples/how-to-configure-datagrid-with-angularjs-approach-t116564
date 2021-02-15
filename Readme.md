@@ -1,16 +1,3 @@
-<!-- default file list -->
-*Files to look at*:
+# This example is obsolete
 
-<!-- default file list end -->
-# How to configure DataGrid with AngularJS Approach
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/t116564/)**
-<!-- run online end -->
-
-
-<p>This example demonstrates how to display data from a data source in dxDataGrid created using the AngularJS approach.<br /><br /></p>
-<p><strong>See also:<br /></strong><a href="http://js.devexpress.com/Documentation/Tutorial/UI_Widgets/Configure_Widget_-_Angular_Approach?version=14_1#Modify_Option_Value_at_Runtime">Configure Widget - Angular Approach</a></p>
-
-<br/>
-
-
+<p>From v18.1, the DevExtreme hybrid mobile-related tools, including DevExtreme SPA Framework, are deprecated. See <a href="https://community.devexpress.com/blogs/aspnet/archive/2018/02/26/devextreme-hybrid-mobile-tools-deprecation-in-v18-1.aspx"><u>this blog post</u></a> for more information. The mobile tools documentation was removed from the newer versions, but you can still find it in <a href="https://js.devexpress.com/Documentation/17_2/Guide/SPA_Framework/Application_Development/"><u>the older versions</u></a>.</p>
